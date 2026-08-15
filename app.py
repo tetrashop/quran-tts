@@ -17,9 +17,9 @@ except Exception as e:
 def recite_quran(verse, voice_file):
     """تولید تلاوت قرآن با کلونینگ صدا"""
     if voice_file is None:
-        return "❌ لطفاً فایل صدای مرجع را بارگذاری کنید.", None
+        return render_template("index.html")
     if not verse or not verse.strip():
-        return "❌ لطفاً متن آیه را وارد کنید.", None
+        return render_template("index.html")
 
     try:
         # خواندن فایل صوتی
@@ -33,9 +33,9 @@ def recite_quran(verse, voice_file):
 
         out_path = "recited.wav"
         sf.write(out_path, wav, tts.synthesizer.output_sample_rate)
-        return "✅ تلاوت با موفقیت تولید شد.", out_path
+        return render_template("index.html")
     except Exception as e:
-        return f"❌ خطا: {str(e)}", None
+        return render_template("index.html")
 
 # رابط کاربری Gradio
 iface = gr.Interface(
