@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![Project Type](https://img.shields.io/badge/Type-Speech / TTS-blue)
-![Status](https://img.shields.io/badge/status-active-success)
+![Type](https://img.shields.io/badge/Type-python-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-success)
 
 **بخشی از اکوسیستم TetraShop**
 
@@ -12,42 +12,12 @@
 
 ---
 
-## 📋 چکیده
+## 📋 درباره پروژه
 
-یک سیستم تبدیل متن به گفتار (TTS) با کیفیت بالا، طراحی شده برای تولید صدای طبیعی و قابل فهم. این پروژه از مدل‌های پیشرفته تولید صوت استفاده می‌کند.
+این پروژه با هدف ارائه یک راه‌حل کارآمد در حوزه **python** توسعه یافته است.
 
-### 🎯 اهداف پروژه
-
-- ✅ ارائه یک راه‌حل کارآمد در حوزه **Speech / TTS**
-- ✅ پیاده‌سازی با استفاده از بهترین روش‌های مهندسی نرم‌افزار
-- ✅ ایجاد کد تمیز، ماژولار و قابل نگهداری
-- ✅ مستندسازی کامل برای سهولت استفاده و مشارکت
-
----
-
-## 🏗️ معماری پروژه
-
-### ساختار کلی
-
-```
-quran-tts/
-├── src/           # کدهای منبع اصلی
-│   ├── core/      # ماژول‌های اصلی
-│   ├── utils/     # توابع کمکی
-│   └── config/    # تنظیمات
-├── tests/         # تست‌های واحد و یکپارچه
-├── docs/          # مستندات فنی
-├── scripts/       # اسکریپت‌های ابزار
-├── README.md      # مستندات پروژه
-├── LICENSE        # مجوز
-└── .gitignore     # فایل‌های نادیده‌گرفته
-```
-
-### الگوی طراحی
-
-- **معماری:** لایه‌ای (Layered Architecture)
-- **الگوی اصلی:** MVC / Microservices
-- **مدیریت وابستگی:** Dependency Injection
+- **تعداد فایل‌ها:** 25
+- **وضعیت:** فعال و پایدار
 
 ---
 
@@ -55,90 +25,99 @@ quran-tts/
 
 ### پیش‌نیازها
 
-- - محیط توسعه مناسب\n- Git
+- Python 3.9+\n- pip
 
 ### نصب
 
 ```bash
-# کلون مخزن
 git clone https://github.com/tetrashop/quran-tts.git
 cd quran-tts
-
-# نصب وابستگی‌ها
-# دستورات نصب بستگی به نوع پروژه دارد
-
-# اجرای پروژه
-# دستور اجرا بستگی به نوع پروژه دارد
+pip install -r requirements.txt
 ```
 
----
-
-## 📖 راهنمای استفاده
-
-### شروع سریع
+### اجرا
 
 ```bash
-# کد نمونه برای شروع کار
+python app.py
 ```
 
 ---
 
-## 🧪 تست
+## 🌐 دیپلوی
 
-```bash
-# اجرای تست‌ها
-# دستور تست بستگی به نوع پروژه دارد
-```
+- **URL:** [  🚀 دیپلوی quran-tts روی Vercel...
+    ❌ دیپلوی ناموفق!
+error: "/data/data/com.termux/files/usr/lib/node_modules/vercel/dist/get-latest-worker.cjs" has bad ELF magic: 2f2a2a0a
+Vercel CLI 58.5.1 (Node.js 26.4.0)
 
----
+  Directory       ~/github/quran-tts
 
-## 🐛 مشکلات شناخته‌شده و راه‌حل‌ها
+Loading teams…
+  Team            ramin-edjlal-s-projects
+Searching for existing projects…
+Searching for existing projects…
 
-### مشکل ۱: خطای نصب وابستگی‌ها
-**راه‌حل:** 
-```bash
-# پاک کردن کش و نصب مجدد
-# پاک کردن کش و نصب مجدد
-```
+✓ Linked          ramin-edjlal-s-projects/quran-tts
 
-### مشکل ۲: خطای حافظه
-**راه‌حل:** افزایش حافظه اختصاص‌یافته یا استفاده از swap.
+Retrieving project…
+> Downloading `development` environment variables for ramin-edjlal-s-projects/quran-tts
+Downloading
 
----
+✓ Created         .env.local file and added it to .gitignore
+Deploying ramin-edjlal-s-projects/quran-tts
+Uploading [--------------------] (0.0B/12.6KB)
+Uploading [=====---------------] (3.4KB/12.6KB)
+Uploading [===========---------] (7.2KB/12.6KB)
+Uploading [====================] (12.6KB/12.6KB)
+  Inspect         https://vercel.com/ramin-edjlal-s-projects/quran-tts/wcZQjXYNuWhLawF7eQG9gTAdSPWo
+  Production      https://quran-r1cyrf9ak-ramin-edjlal-s-projects.vercel.app
+https://quran-r1cyrf9ak-ramin-edjlal-s-projects.vercel.appBuilding…
+Error: Could not find a top-level "app", "application", or "handler" in "app.py".](  🚀 دیپلوی quran-tts روی Vercel...
+    ❌ دیپلوی ناموفق!
+error: "/data/data/com.termux/files/usr/lib/node_modules/vercel/dist/get-latest-worker.cjs" has bad ELF magic: 2f2a2a0a
+Vercel CLI 58.5.1 (Node.js 26.4.0)
 
-## 🤝 مشارکت در توسعه
+  Directory       ~/github/quran-tts
 
-1. **Fork** کردن مخزن
-2. ایجاد **Branch** جدید: `git checkout -b feature/your-feature`
-3. **Commit** تغییرات: `git commit -m 'Add amazing feature'`
-4. **Push** به Branch: `git push origin feature/your-feature`
-5. باز کردن **Pull Request**
+Loading teams…
+  Team            ramin-edjlal-s-projects
+Searching for existing projects…
+Searching for existing projects…
 
-### قوانین مشارکت
+✓ Linked          ramin-edjlal-s-projects/quran-tts
 
-- ✅ رعایت استانداردهای کدنویسی
-- ✅ نوشتن تست برای کدهای جدید
-- ✅ به‌روزرسانی مستندات
-- ✅ استفاده از Conventional Commits
+Retrieving project…
+> Downloading `development` environment variables for ramin-edjlal-s-projects/quran-tts
+Downloading
+
+✓ Created         .env.local file and added it to .gitignore
+Deploying ramin-edjlal-s-projects/quran-tts
+Uploading [--------------------] (0.0B/12.6KB)
+Uploading [=====---------------] (3.4KB/12.6KB)
+Uploading [===========---------] (7.2KB/12.6KB)
+Uploading [====================] (12.6KB/12.6KB)
+  Inspect         https://vercel.com/ramin-edjlal-s-projects/quran-tts/wcZQjXYNuWhLawF7eQG9gTAdSPWo
+  Production      https://quran-r1cyrf9ak-ramin-edjlal-s-projects.vercel.app
+https://quran-r1cyrf9ak-ramin-edjlal-s-projects.vercel.appBuilding…
+Error: Could not find a top-level "app", "application", or "handler" in "app.py".)
+- **وضعیت:** ✅ فعال
+- **آخرین به‌روزرسانی:** 2026-08-15 19:09
 
 ---
 
 ## 📝 مجوز
 
-این پروژه تحت مجوز **MIT License** منتشر شده است.
+MIT License
 
 ---
 
-## 🌐 ارتباط با تیم
+## 🌐 ارتباط با ما
 
 - **وبسایت:** [tetrashop.ir](https://tetrashop.ir)
 - **گیت‌هاب:** [github.com/tetrashop](https://github.com/tetrashop)
-- **ایمیل:** info@tetrashop.ir
 
 ---
 
 <div align="center">
   <sub>ساخته شده با ❤️ توسط تیم TetraShop</sub>
-  <br>
-  <sub>آخرین به‌روزرسانی: 2026-08-13 17:31</sub>
 </div>
