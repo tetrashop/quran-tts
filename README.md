@@ -122,3 +122,8 @@ MIT License
   <sub>ساخته شده با ❤️ توسط تیم TetraShop</sub>
 </div>
 <!-- Trigger deploy: Mon Aug 17 01:48:59 +0330 2026 -->
+
+## 🌐 Deployment
+
+- **Live URL:** [https://quran-tts.vercel.app](https://quran-tts.vercel.app)
+- **Status:** ❌ Inactive
